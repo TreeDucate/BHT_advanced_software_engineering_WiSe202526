@@ -1,0 +1,14 @@
+pandas
+scikit-learn		# includes scipy
+# statsmodels
+matplotlib
+seaborn
+torch
+transformers
+datasets
+# pyarrow 
+datasets
+torchinfo
+xformers
+# jupyter 		# jupyter notebook
+spyder
