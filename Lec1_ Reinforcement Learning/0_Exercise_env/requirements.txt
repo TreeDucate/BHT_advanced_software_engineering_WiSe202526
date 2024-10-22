@@ -5,4 +5,4 @@ matplotlib
 seaborn
 jupyter 		# jupyter notebook
 # spyder
-gymnasium
+gymnasium==0.29.1
