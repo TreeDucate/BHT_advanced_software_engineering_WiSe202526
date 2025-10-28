@@ -8,7 +8,7 @@ current_working_directory = os.getcwd()
 print(f"The current working directory is: {current_working_directory}")
 
 # Change the working directory to a new directory (replace with the path you want)
-new_working_directory = "C:/(...)/Transformers - BERT/src"
+new_working_directory = "C:/1-eigenes/Lehrauftrag - BHT/Vorlesungsreihe WS25-26/WS2526_Lec7_ Sentiment Analyzer _BERT/0_Exercise_env"
 os.chdir(new_working_directory)
 
 # Get and print the new current working directory
@@ -20,7 +20,7 @@ print(f"The new current working directory is: {new_current_working_directory}")
 from transformers import pipeline
 
 # load trained, serialized model
-newmodel = pipeline('text-classification', model='my_saved_model') #, device=0)
+newmodel = pipeline('text-classification', model='my_saved_model3') #, device=0)
 
 # Sentiment: positive
 newmodel('This movie is great!')
